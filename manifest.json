@@ -1,0 +1,20 @@
+{
+  "name": "Points for Notion",
+  "description": "Adds story points, post-estimation points to Notion boards.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": ["https://www.notion.so/*"],
+      "js": ["index.js"],
+      "css": ["index.css"]
+    }
+  ],
+  "permissions": ["storage"],
+  "icons": {
+    "48": "img/Icon-48.png",
+    "128": "img/Icon-128.png",
+    "1024": "img/Icon-1024.png"
+  }
+}

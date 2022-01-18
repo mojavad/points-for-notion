@@ -1,0 +1,27 @@
+.pre_estimate_points,
+.post_estimate_points {
+  margin-right: 3px;
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  padding: 1px 5px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 12px;
+  white-space: normal;
+}
+
+.pre_estimate_points {
+  background: linear-gradient(
+    rgb(71, 186, 224) 50%,
+    rgb(77, 187, 226) 50%,
+    rgb(51, 181, 224) 50%
+  );
+}
+
+.post_estimate_points {
+  background: linear-gradient(
+    rgb(129, 202, 226) 50%,
+    rgb(121, 198, 224) 50%,
+    rgb(108, 193, 221) 50%
+  );
+}
