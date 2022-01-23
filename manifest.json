@@ -11,7 +11,6 @@
       "css": ["index.css"]
     }
   ],
-  "permissions": ["storage"],
   "icons": {
     "48": "img/Icon-48.png",
     "128": "img/Icon-128.png",

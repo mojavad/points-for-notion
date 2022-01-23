@@ -73,6 +73,13 @@ const checkElement = async (selector) => {
 checkElement(".notion-board-group > div.notion-collection-item").then(() => {
   addPointsToCards();
 
+  const targetNode = document.querySelector(".notion-board-view");
+
+  // Select the node that will be observed for mutations
+  new MutationObserver(() => {
+    addPointsToCards();
+  }).observe(targetNode, { subtree: true, childList: true });
+
   // Debouncing in case of re-renders (React virtual dom can be iffy here...)
   setTimeout(function () {
     addPointsToCards();
