@@ -12,7 +12,7 @@ This data is kept within your machine only and is not sent anywhere externally.
 
 ### Changes to our privacy policy
 
-We keep our privacy policy under regular review and place any updates on this web page. This privacy policy was last updated on 18th Jan 2021.
+We keep our privacy policy under regular review and place any updates on this web page. This privacy policy was last updated on 19th Jan 2022.
 
 ### How to contact us
 
